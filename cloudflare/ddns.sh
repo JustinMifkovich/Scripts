@@ -58,7 +58,7 @@ for dnsrecord in "${dnsrecords[@]}"; do
         else
 
 
-            curl -s -Z PUT "https://api.cloudflare.com/client/v4/zones/$cloudflare_zone_id/dns_records/$cloudflare_dnsrecord_id" \
+            curl --location --request PUT "https://api.cloudflare.com/client/v4/zones/$cloudflare_zone_id/dns_records/$cloudflare_dnsrecord_id" \
               -H "Authorization: Bearer $cloudflare_auth_key" \
               -H "Content-Type: application/json" \
               -H "X-Auth-Email: $email" \
