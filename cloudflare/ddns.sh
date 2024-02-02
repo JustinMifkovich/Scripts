@@ -14,7 +14,7 @@ zone=mifko.co
 #dnsrecords=(vpn.mifko.co vcenter.mifko.co desktop.mifko.co www.mifko.co mifko.co)
 dnsrecords=(mifko.co)
 email=jmifkovich@gmail.com
-auth_key={api-key}
+auth_key=c832898706dacbfddda50871f10abff2dcab9
 
 # Flag for Cloudflare proxy status (ALL LOWER CASE)
 use_proxy=true
